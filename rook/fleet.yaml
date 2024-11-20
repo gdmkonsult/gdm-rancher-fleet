@@ -1,5 +1,6 @@
+defaultNamespace: rook-ceph
 helm:
-  releaseName: rancher-monitoring
+  releaseName: rook-operator
   repo: https://charts.rook.io/release
-  chart: rook-ceph-cluster
-  version: v1.15
+  chart: rook-ceph
+  version: v1.15.5
