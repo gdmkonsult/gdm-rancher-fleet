@@ -1,0 +1,6 @@
+defaultNamespace: rook-ceph
+helm:
+  releaseName: rook-operator
+  repo: https://charts.rook.io/release
+  chart: rook-ceph
+  version: v1.15.5
