@@ -7,3 +7,5 @@ helm:
   releaseName: metallb
   version: "0.14.8"
   takeOwnership: true
+  valuesFiles:
+    - ip-pool.yaml
