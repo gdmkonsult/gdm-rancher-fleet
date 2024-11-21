@@ -3,3 +3,6 @@ kustomize:
 
 helm:
   takeOwnership: true
+
+dependsOn:
+  - name: gdm-rancher-fleet-metallb-crds
