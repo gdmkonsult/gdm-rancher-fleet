@@ -1,8 +1,15 @@
 defaultNamespace: metallb-system
 
-kustomize:
-  dir: .
+diff:
+  comparePatches:
+  - apiVersion: apiextensions.k8s.io/v1
+    kind: CustomResourceDefinition
+    name: bgppeers.metallb.io
+    operations:
+    - {"op": "remove", "path": "/spec/conversion/webhook/clientConfig/caBundle"}
 
 helm:
+  chart: https://metallb.github.io/metallb
+  version: "0.14.8"
+  releaseName: metallb
   takeOwnership: true
-  force: true
