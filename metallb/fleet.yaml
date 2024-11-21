@@ -1,0 +1,11 @@
+defaultNamespace: metallb-system
+helm:
+  releaseName: metallb
+  repo: https://metallb.github.io/metallb
+  chart: metallb
+diff:
+  comparePatches:
+  - apiVersion: apps/v1
+    kind: Deployment
+    operations:
+    - {"op":"remove", "path":"/spec/template/spec/hostNetwork"}
