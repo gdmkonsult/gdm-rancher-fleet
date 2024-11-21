@@ -2,4 +2,4 @@ kustomize:
   dir: .
 
 dependsOn:
-  - name: rook-ceph
+  - name: gdm-rancher-fleet-rook-ceph

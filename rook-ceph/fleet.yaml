@@ -2,4 +2,4 @@ kustomize:
   dir: .
 
 dependsOn:
-  - name: rook-crds
+  - name: gdm-rancher-fleet-rook-crds
