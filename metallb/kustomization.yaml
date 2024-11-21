@@ -1,0 +1,3 @@
+resources:
+  - 10-metallb.yaml
+  - 11-create-l2-and-service.yaml
