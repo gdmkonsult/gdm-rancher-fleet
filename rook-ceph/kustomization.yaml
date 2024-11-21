@@ -2,5 +2,3 @@ resources:
   - 10-crds.yaml
   - 11-common.yaml
   - 12-operator.yaml
-  - 20-common-external.yaml
-  - 21-cluster-external.yaml
