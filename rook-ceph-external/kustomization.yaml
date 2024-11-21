@@ -1,3 +1,2 @@
 resources:
-  - 20-common-external.yaml
   - 21-cluster-external.yaml
