@@ -1,4 +1,4 @@
-defaultNamespace: metallb-system
+namespace: metallb-system
 
 diff:
   comparePatches:
