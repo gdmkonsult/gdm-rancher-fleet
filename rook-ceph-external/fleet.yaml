@@ -1,5 +1,2 @@
 kustomize:
   dir: .
-
-helm:
-  takeOwnership: true
