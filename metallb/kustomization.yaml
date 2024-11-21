@@ -1,2 +1,2 @@
 resources:
-  - metallb.yaml
+  - github.com/metallb/metallb/config/native?ref=v0.14.8

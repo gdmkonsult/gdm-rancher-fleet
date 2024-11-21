@@ -8,8 +8,9 @@ diff:
     operations:
     - {"op": "remove", "path": "/spec/conversion/webhook/clientConfig/caBundle"}
 
+kustomize:
+  dir: .
+
 helm:
-  chart: https://metallb.github.io/metallb
-  version: "0.14.8"
-  releaseName: metallb
   takeOwnership: true
+  force: true
