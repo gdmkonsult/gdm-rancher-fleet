@@ -1,5 +1,8 @@
+defaultNamespace: metallb-system
+
 kustomize:
   dir: .
 
 helm:
   takeOwnership: true
+  force: true
