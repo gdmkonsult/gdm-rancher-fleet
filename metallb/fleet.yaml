@@ -1,4 +1,5 @@
 defaultNamespace: metallb-system
+namespace: metallb-system
 
 helm:
   repo: https://metallb.github.io/metallb
