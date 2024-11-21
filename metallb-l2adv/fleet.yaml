@@ -1,8 +1,0 @@
-kustomize:
-  dir: .
-
-helm:
-  takeOwnership: true
-
-dependsOn:
-  - name: gdm-rancher-fleet-metallb
