@@ -1,0 +1,5 @@
+defaultNamespace: defaultNamespace
+namespace: default
+
+kustomize:
+  dir: .
