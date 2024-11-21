@@ -1,7 +1,9 @@
 defaultNamespace: rook-ceph
 helm:
-  releaseName: rook-ceph
+  releaseName: rook-release
   repo: https://charts.rook.io/release
   chart: rook-ceph
   version: v1.15.5
+  valuesFiles:
+    - rook-ceph-values.yaml
   createNamespace: true

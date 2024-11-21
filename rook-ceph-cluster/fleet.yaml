@@ -1,6 +1,6 @@
 defaultNamespace: rook-ceph
 helm:
-  releaseName: rook-ceph-cluster
+  releaseName: rook-release
   repo: https://charts.rook.io/release
   chart: rook-ceph-cluster
   version: v1.15.5
