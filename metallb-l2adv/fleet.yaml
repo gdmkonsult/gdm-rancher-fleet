@@ -5,4 +5,4 @@ helm:
   takeOwnership: true
 
 dependsOn:
-  - name: gdm-rancher-fleet-metallb-l2adv
+  - name: gdm-rancher-fleet-metallb
