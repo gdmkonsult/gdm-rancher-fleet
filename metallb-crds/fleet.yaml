@@ -3,3 +3,4 @@ kustomize:
 
 helm:
   takeOwnership: true
+  force: true
