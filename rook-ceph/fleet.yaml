@@ -4,6 +4,7 @@ helm:
   repo: https://charts.rook.io/release
   chart: rook-ceph
   version: v1.15.5
+  takeOwnership: false
   valuesFiles:
     - rook-ceph-values.yaml
   createNamespace: true
