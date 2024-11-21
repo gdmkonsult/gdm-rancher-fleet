@@ -1,0 +1,5 @@
+defaultNamespace: default
+namespace: default
+
+kustomize:
+  dir: ./rook-ceph
