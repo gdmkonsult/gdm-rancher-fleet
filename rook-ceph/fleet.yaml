@@ -1,5 +1,2 @@
-defaultNamespace: rook-ceph
-namespace: rook-ceph
-
 kustomize:
   dir: .
