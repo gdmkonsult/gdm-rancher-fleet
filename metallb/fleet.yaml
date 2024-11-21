@@ -3,6 +3,7 @@ helm:
   releaseName: metallb
   repo: https://metallb.github.io/metallb
   chart: metallb
+  takeOwnership: true
 diff:
   comparePatches:
   - apiVersion: apps/v1
