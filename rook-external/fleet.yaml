@@ -10,12 +10,12 @@ diff:
     kind: CephCluster
     name: rook-ceph-external
     operations:
-    - {"op": "remove", "path": "/metadata/annotations"}
-    - {"op": "remove", "path": "/metadata/creationTimestamp"}
-    - {"op": "remove", "path": "/metadata/finalizers"}
-    - {"op": "remove", "path": "/metadata/generation"}
-    - {"op": "remove", "path": "/metadata/labels"}
-    - {"op": "remove", "path": "/metadata/resourceVersion"}
+#    - {"op": "remove", "path": "/metadata/annotations"}
+#    - {"op": "remove", "path": "/metadata/creationTimestamp"}
+#    - {"op": "remove", "path": "/metadata/finalizers"}
+#    - {"op": "remove", "path": "/metadata/generation"}
+#    - {"op": "remove", "path": "/metadata/labels"}
+#    - {"op": "remove", "path": "/metadata/resourceVersion"}
 #    - {"op": "remove", "path": "/metadata/uid"}
     - {"op": "remove", "path": "/spec/cephVersion"}
     - {"op": "remove", "path": "/spec/cleanupPolicy"}
