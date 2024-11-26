@@ -1,0 +1,5 @@
+kustomize:
+  dir: .
+
+dependsOn:
+  - name: gdm-rancher-fleet-rook-ceph
