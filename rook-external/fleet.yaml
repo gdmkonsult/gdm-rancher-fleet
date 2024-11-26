@@ -24,6 +24,7 @@ diff:
     - {"op": "remove", "path": "/spec/disruptionManagement"}
     - {"op": "remove", "path": "/spec/healthCheck/daemonHealth/osd"}
     - {"op": "remove", "path": "/spec/healthCheck/daemonHealth/status"}
+    - {"op": "remove", "path": "/spec/healthCheck/daemonHealth/mon/disabled"}
     - {"op": "remove", "path": "/spec/logCollector"}
     - {"op": "remove", "path": "/spec/mgr"}
     - {"op": "remove", "path": "/spec/mon"}
