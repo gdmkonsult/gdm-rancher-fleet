@@ -10,17 +10,17 @@ diff:
     kind: CephCluster
     name: rook-ceph-external
     operations:
-#    - {"op": "remove", "path": "/spec/cephVersion"}
-#    - {"op": "remove", "path": "/spec/cleanupPolicy"}
-#    - {"op": "remove", "path": "/spec/csi"}
-#    - {"op": "remove", "path": "/spec/dashboard"}
-#    - {"op": "remove", "path": "/spec/disruptionManagement"}
-#    - {"op": "remove", "path": "/spec/healthCheck/daemonHealth/osd"}
-#    - {"op": "remove", "path": "/spec/healthCheck/daemonHealth/status"}
-#    - {"op": "remove", "path": "/spec/logCollector"}
-#    - {"op": "remove", "path": "/spec/mgr"}
-#    - {"op": "remove", "path": "/spec/mon"}
-#    - {"op": "remove", "path": "/spec/monitoring"}
-#    - {"op": "remove", "path": "/spec/network"}
-#    - {"op": "remove", "path": "/spec/security"}
-#    - {"op": "remove", "path": "/spec/storage"}
+    - {"op": "remove", "path": "/spec/cephVersion"}
+    - {"op": "remove", "path": "/spec/cleanupPolicy"}
+    - {"op": "remove", "path": "/spec/csi"}
+    - {"op": "remove", "path": "/spec/dashboard"}
+    - {"op": "remove", "path": "/spec/disruptionManagement"}
+    - {"op": "remove", "path": "/spec/healthCheck/daemonHealth/osd"}
+    - {"op": "remove", "path": "/spec/healthCheck/daemonHealth/status"}
+    - {"op": "remove", "path": "/spec/logCollector"}
+    - {"op": "remove", "path": "/spec/mgr"}
+    - {"op": "remove", "path": "/spec/mon"}
+    - {"op": "remove", "path": "/spec/monitoring"}
+    - {"op": "remove", "path": "/spec/network"}
+    - {"op": "remove", "path": "/spec/security"}
+    - {"op": "remove", "path": "/spec/storage"}
