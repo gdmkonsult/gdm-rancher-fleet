@@ -16,7 +16,7 @@ diff:
     - {"op": "remove", "path": "/metadata/generation"}
     - {"op": "remove", "path": "/metadata/labels"}
     - {"op": "remove", "path": "/metadata/resourceVersion"}
-    - {"op": "remove", "path": "/metadata/uid"}
+#    - {"op": "remove", "path": "/metadata/uid"}
     - {"op": "remove", "path": "/spec/cephVersion"}
     - {"op": "remove", "path": "/spec/cleanupPolicy"}
     - {"op": "remove", "path": "/spec/csi"}
